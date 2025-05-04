@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kimo/DotNet/GameZone/GameZone.csproj": {}
+    "/home/kimo/Downloads/GameZone/GameZone.csproj": {}
   },
   "projects": {
-    "/home/kimo/DotNet/GameZone/GameZone.csproj": {
+    "/home/kimo/Downloads/GameZone/GameZone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kimo/DotNet/GameZone/GameZone.csproj",
+        "projectUniqueName": "/home/kimo/Downloads/GameZone/GameZone.csproj",
         "projectName": "GameZone",
-        "projectPath": "/home/kimo/DotNet/GameZone/GameZone.csproj",
+        "projectPath": "/home/kimo/Downloads/GameZone/GameZone.csproj",
         "packagesPath": "/home/kimo/.nuget/packages/",
-        "outputPath": "/home/kimo/DotNet/GameZone/obj/",
+        "outputPath": "/home/kimo/Downloads/GameZone/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kimo/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
